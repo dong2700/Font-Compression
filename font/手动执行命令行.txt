@@ -1,0 +1,36 @@
+
+// 参考地址 https://www.jianshu.com/p/8bd34d13415e
+// python -m pip install  "demoName" 安装插件
+
+// 注： cmd  当前目录打开命令行窗口执行下列命令即可
+// 切割
+python  -m fontTools subset "./font/SOURCEHANSERIFCN-BOLD.OTF" --text-file="./font/现代汉语常用3500字.txt" --output-file="./font/SOURCEHANSERIFCN-BOLD2.OTF"
+python -m fontTools ttLib.woff2 compress "./font/SOURCEHANSERIFCN-BOLD2.OTF" -o "./font/SOURCEHANSERIFCN-BOLD.woff2"
+
+
+
+python -m fontTools ttLib.woff2 compress "./font/PINGFANG REGULAR.TTF" -o "./font/PINGFANG_REGULAR.woff2"
+
+
+
+
+
+python -m fontTools ttLib.woff2 compress "./font/思源宋体TC-Bold.OTF" -o "./思源宋体TC-Bold2.OTF"
+
+
+python  -m fontTools subset "./font/思源宋体TC-Bold2.OTF" --text-file="./font/现代汉语常用3500字.txt" --output-file="./font/思源宋体TC-Bold.OTF"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

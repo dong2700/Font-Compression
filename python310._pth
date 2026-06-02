@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 python310.zip
 .
 # Uncomment to run site.main() automatically
 import site
+=======
+python310.zip
+.
+# Uncomment to run site.main() automatically
+import site
+>>>>>>> 1f226059075f22dce4d49cbffe3c2362ea0db5d7
